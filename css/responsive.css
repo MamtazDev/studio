@@ -1,7 +1,68 @@
-@media only screen and (max-width:1024px) {}
+@media only screen and (max-width:1024px) {
+    .carousel-caption {
+        top: 25%;
+    }
+
+    .carousel-caption {
+        left: 15%;
+    }
+
+    .learnBtn {
+        margin-top: 0;
+    }
+
+
+    .carousel-caption h1 {
+        font-size: 45px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 20px;
+    }
+}
+
 @media only screen and (max-width:992px) {}
-@media only screen and (max-width:768px) {}
-@media only screen and (max-width:600px) {}
-@media only screen and (max-width:425px){}
+
+@media only screen and (max-width:768px) {
+    .navbar-nav {
+        gap: 10px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 25px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 18px;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        height: 20px;
+        width: 20px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .carousel-caption h1,
+    .carousel-caption h2,
+    .carousel-caption p {
+        font-size: 13px;
+        padding: 3px;
+    }
+    .learnBtn{
+        padding: 4px;
+    }
+
+    .carousel-caption {
+        top: 3%;
+    }
+}
+
+@media only screen and (max-width:425px) {}
+
 @media only screen and (max-width:375px) {}
-@media only screen and (max-width:320px){}
+
+@media only screen and (max-width:320px) {}
