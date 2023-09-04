@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+ul li {
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+:focus-visible{
+    outline: none;
+}
+
+
+
+.container {
+    max-width: 1170px;
+}
+
+
+header,
+footer {
+    background-color: #333333;;
+}
+
+/* Header Start */
+
+.navbar {
+   
+
+}
+
+
+.navbar-brand img{
+    height: 40px;
+}
+
+.nav-link , .dropdown-menu , .dropdown-item  {
+    color: #ccc;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 0;
+    padding: 16px;
+    text-transform: uppercase;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: #393939;
+    background-color: #333333;
+    --bs-dropdown-divider-bg: #000;
+    --bs-dropdown-divider-margin-y: 0;
+    --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    --bs-dropdown-link-color: #ccc;
+    --bs-dropdown-link-hover-color: #F07057;
+    --bs-dropdown-link-hover-bg: #393939;
+    --bs-dropdown-border-color: none;
+    --bs-dropdown-border-radius: 0;
+}
+
+.navbar-nav {
+    gap: 30px;
+}
+
+.nav-link:hover {
+    color: #F07057;
+    background: #393939
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show  {
+    color: #F07057;
+    background: #393939
+}
+
+
+.navbar-toggler {
+    border: none;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+/* Header End */
+
+/* Footer Start */
+
+footer{
+    border-top: rgba(255,255,255,0.3) 1px solid;
+}
+
+footer span, footer ul li a {
+    color: #fff;
+    font-size: 10px;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+footer ul li a:hover{
+    color: #F07057;
+} 
+
+footer .sepy {
+    color: #666;
+    font-size: 18px;
+}
+
+/* Footer End */
+
+/* index Page Start */
+
+.carousel-inner img{
+    /* max-height: 845px; */
+    object-fit: cover;
+    height: 95vh;
+}
+
+
+
+/* index Page End */
