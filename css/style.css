@@ -515,7 +515,9 @@ hr.half-margins {
     padding: 8px;
     text-transform: uppercase;
 }
-.price-table.popular {
+
+
+.bg_dark{
     background: #676767;
 }
 /* Audio Page End */
