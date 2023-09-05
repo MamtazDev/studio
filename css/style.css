@@ -356,8 +356,7 @@ footer .sepy {
 
 /* The Studio Page Start */
 
-.studioBg {
-    background-image: url("../assets/theStudioBanner.png");
+.pageBg {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -400,15 +399,10 @@ footer .sepy {
 .serviceIcon {
     color: #fff;
     text-align: center;
-    background-color: #333;
+    background-color: #F07057;
     border-radius: 50%;
     height: 35px;
     width: 35px;
-}
-
-
-.serviceIcon:hover {
-    background-color: #F07057;
 }
 
 
@@ -418,7 +412,7 @@ footer .sepy {
 /* team Page Start */
 
 .lead {
-    font-size: 32px;
+    font-size: 21px;
     line-height: 1.4;
 }
 
@@ -466,3 +460,7 @@ hr.half-margins {
 
 
 /* team Page End */
+
+/* Service Page Start */
+
+/* Service Page End */
