@@ -410,6 +410,15 @@ footer .sepy {
 
 
 /* team Page Start */
+.serviceIconLarge{
+    color: #F07057;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #F07057;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+}
 
 .lead {
     font-size: 21px;
@@ -445,7 +454,7 @@ footer .sepy {
 }
 
 hr.half-margins {
-    margin: 30px 0;
+    margin: 60px 0;
 }
 
 .bgCall{
@@ -461,6 +470,52 @@ hr.half-margins {
 
 /* team Page End */
 
-/* Service Page Start */
+/* Audio Page Start */
+.price-table {
+    background: #fafafa;
+    text-align: center;
+}
 
-/* Service Page End */
+.price-table h3 {
+    font-size: 25px;
+    line-height: 25px;
+    padding: 30px 0;
+    border-bottom: rgba(0,0,0,0.1) 2px solid;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+
+.price-table p {
+    color: #666;
+    font-size: 36px;
+    padding: 30px 0;
+    font-weight: 400;
+    width: 150px;
+    height: 150px;
+    padding-top: 60px;
+    display: inline-block;
+    background-color: rgba(0,0,0,0.05);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    margin-bottom: 22px;
+}
+
+.price-table p span {
+    display: block;
+    font-size: 10px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.price-table ul li {
+    list-style: none;
+    font-size: 12px;
+    border-bottom: rgba(0,0,0,0.1) 1px solid;
+    padding: 8px;
+    text-transform: uppercase;
+}
+.price-table.popular {
+    background: #676767;
+}
+/* Audio Page End */
