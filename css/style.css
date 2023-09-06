@@ -521,3 +521,19 @@ hr.half-margins {
     background: #676767;
 }
 /* Audio Page End */
+
+/* Digital Services Page Start */
+
+.alert.alert-warning {
+    background-color: #fce3a3;
+    border-left: #8A6D3B 3px solid;
+    color: #8a6d3b;
+}
+
+.alert {
+    padding: 15px;
+    border-radius: 4px;
+}
+
+
+/* Digital Services Page End */
