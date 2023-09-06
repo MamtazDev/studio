@@ -72,6 +72,17 @@ ul li {
     line-height: 22px;
 }
 
+
+.btn-dark {
+    border-color: #333 !important;
+    background-color: #333 !important;
+}
+
+.btn {
+    padding: 8px 18px !important;
+    font-size: 14px;
+}
+
 .mb_60 {
     margin-bottom: 50px;
 }
@@ -410,7 +421,7 @@ footer .sepy {
 
 
 /* team Page Start */
-.serviceIconLarge{
+.serviceIconLarge {
     color: #F07057;
     text-align: center;
     background-color: transparent;
@@ -448,7 +459,7 @@ footer .sepy {
     padding: 5px 5px 10px 5px;
 }
 
-.btnxs{
+.btnxs {
     padding: 3px 13px;
     font-size: 12px;
 }
@@ -457,13 +468,13 @@ hr.half-margins {
     margin: 60px 0;
 }
 
-.bgCall{
+.bgCall {
     background-color: #eee;
     border-left: #ddd 3px solid;
     padding: 15px;
 }
 
-.introBtn{
+.introBtn {
     font-size: 14px;
 }
 
@@ -480,7 +491,7 @@ hr.half-margins {
     font-size: 25px;
     line-height: 25px;
     padding: 30px 0;
-    border-bottom: rgba(0,0,0,0.1) 2px solid;
+    border-bottom: rgba(0, 0, 0, 0.1) 2px solid;
     text-transform: uppercase;
     margin-bottom: 32px;
 }
@@ -494,7 +505,7 @@ hr.half-margins {
     height: 150px;
     padding-top: 60px;
     display: inline-block;
-    background-color: rgba(0,0,0,0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -511,15 +522,16 @@ hr.half-margins {
 .price-table ul li {
     list-style: none;
     font-size: 12px;
-    border-bottom: rgba(0,0,0,0.1) 1px solid;
+    border-bottom: rgba(0, 0, 0, 0.1) 1px solid;
     padding: 8px;
     text-transform: uppercase;
 }
 
 
-.bg_dark{
+.bg_dark {
     background: #676767;
 }
+
 /* Audio Page End */
 
 /* Digital Services Page Start */
@@ -540,8 +552,109 @@ hr.half-margins {
 
 /* Promotional Service page Start */
 
-.promotionTable a i{
+.promotionTable a i {
     color: #F07057;
 }
 
 /* Promotional Service page end */
+
+/* Blog Page Start */
+.blogHeader {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    ;
+}
+
+.blogForm input {
+    /* border: none;
+    background: transparent; */
+
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.blogForm input::placeholder {
+    font-size: 14px;
+    color: #7e8998;
+}
+
+.blogForm button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 8px 18px;
+    border: 1px solid #000;
+    font-size: 14px;
+}
+
+.blogInner {
+    background: url("../assets/download.png") no-repeat bottom center;
+    margin-bottom: 60px;
+    padding-bottom: 80px;
+}
+
+.blogInner h2 a {
+    color: #333;
+    transition: 0.3s ease-in-out;
+}
+
+.blogInner h2 a:hover {
+    text-decoration: underline;
+}
+
+.blogInner .label {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #CCC;
+    padding: 0.3em 0.7em 0.4em;
+    background-color: #777;
+    transition: 0.3s ease-in-out;
+}
+
+.blogInner .label:hover {
+    background-color: #5e5e5e;
+}
+
+.readBtn a {
+    color: #F07057 !important;
+    border: none;
+    padding: 3px 13px !important;
+    font-size: 12px;
+}
+
+.readBtn a:hover {
+    color: #333 !important;
+}
+
+.pagination {
+    gap: 10px;
+    border: none !important;
+    --bs-pagination-border-width: 0 !important;
+    --bs-pagination-font-size: 0.875rem;
+    --bs-pagination-color: #F07057 !important;
+    --bs-pagination-bg: none;
+    --bs-pagination-border-color: none !important;
+    --bs-pagination-border-radius: none !important;
+    --bs-pagination-hover-color: #fff;
+    --bs-pagination-hover-bg: #F07057 !important;
+    --bs-pagination-hover-border-color: none !important;
+    --bs-pagination-focus-color: #F07057 !important;
+    --bs-pagination-focus-bg: transition !important;
+    --bs-pagination-focus-box-shadow: none;
+    --bs-pagination-active-color: #fff;
+    --bs-pagination-active-bg: #F07057 !important;
+    --bs-pagination-active-border-color: none !important;
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+/* Blog Page End */
