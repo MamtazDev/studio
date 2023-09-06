@@ -23,6 +23,7 @@ p {
 ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 ul li {
@@ -214,7 +215,8 @@ footer .sepy {
 
 /* index Page Start */
 .carousel-inner img {
-    max-height: 847px;
+    height: 91vh;
+    /* height: 543px; */
     object-fit: cover;
 }
 
