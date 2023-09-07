@@ -180,9 +180,9 @@ footer {
     box-shadow: none;
 }
 
-.dropdown-toggle::after {
+/* .dropdown-toggle::after {
     display: none;
-}
+} */
 
 /* Header End */
 
